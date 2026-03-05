@@ -1,6 +1,6 @@
 import asyncio
 from mcp.server.fastmcp import FastMCP
-from mcp_feedback_lite.dialog import show_feedback_dialog
+from src.dialog import show_feedback_dialog
 
 mcp = FastMCP("mcp-feedback-lite")
 
