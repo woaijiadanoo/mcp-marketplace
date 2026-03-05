@@ -1,0 +1,13 @@
+[project]
+name = "mcp-feedback-lite"
+version = "1.0.0"
+description = "Lightweight MCP feedback server with native tkinter dialog for Cursor IDE"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.6.0"]
+
+[project.scripts]
+mcp-feedback-lite = "mcp_feedback_lite.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
